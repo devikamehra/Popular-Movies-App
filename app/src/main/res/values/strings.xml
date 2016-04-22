@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Popular Movies App</string>
+    <string name="action_settings">Settings</string>
+
+    // base url for Movie Database
+    <string name="base_url" translatable="false">https://api.themoviedb.org/3/</string>
+
+    <string name="sort_by_popularity_desc" translatable="false">popularity.desc</string>
+    <string name="sort_by_rating_desc" translatable="false">vote_average.desc</string>
+
+    <string name="image_base_url">http://image.tmdb.org/t/p/w185/</string>
+
+    <string name="api_key">4098d3416bef6b9829f56077120d8ac9</string>
+    <string name="youtube_api_key">AIzaSyCnW4EqdlRhSFYjqzDDWZp3P1qh0fHe5Uo</string>
+    <string name="title_activity_detail">DetailActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="plot_summary">SUMMARY</string>
+    <string name="error_msg">Connection Error</string>
+    <string name="loading_msg">Loading....!!!</string>
+    <string name="snackbar_msg">Popular Movie App Running Successfully!!</string>
+    <string name="high_rating_text">Highest Rated</string>
+    <string name="most_popular_text">Most Popular</string>
+    <string name="title_activity_youtube">YoutubeActivity</string>
+    <string name="title_activity_review">ReviewActivity</string>
+    <string name="loading_text">Loading...</string>
+    <string name="no_review_text">No Reviews Available.</string>
+    <string name="read_reviews">Read Reviews</string>
+    <string name="watch_trailer">Watch Trailer</string>
+    <string name="share">Share</string>
+    <string name="share_begin">Did you watch the awesome movie I found on Popular Movies App.\n</string>
+    <string name="share_middle">\nUse this app to know more about it.</string>
+    <string name="share_intent_format">text/plain</string>
+    <string name="favourites">Favourites</string>
+    <string name="empty_view_message">Please select a movie to view the Details.</string>
+
+    <array name="button_flat">
+        <item>@style/LightFlatColorButtonRippleStyle</item>
+        <item>@style/DarkFlatColorButtonRippleStyle</item>
+    </array>
+
+</resources>
